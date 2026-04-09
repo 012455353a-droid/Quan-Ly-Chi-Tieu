@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý chi tiêu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>💰 Quản lý chi tiêu cá nhân</h1>
+
+    <!-- Form thêm chi tiêu -->
+    <div class="box">
+        <h2>Thêm chi tiêu</h2>
+        <input type="text" id="amount" placeholder="Số tiền">
+        <input type="text" id="category" placeholder="Loại (ăn uống, học tập...)">
+        <button onclick="addExpense()">Thêm</button>
+    </div>
+
+    <!-- Danh sách chi tiêu -->
+    <div class="box">
+        <h2>Danh sách chi tiêu</h2>
+        <ul id="list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
